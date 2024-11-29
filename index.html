@@ -39,6 +39,13 @@
       white-space: pre-wrap;
       word-wrap: break-word; 
     }
+    .copy-btn{
+      float: right;
+      background-color: transparent;
+      color: white;
+      width: 50px;
+      height: 50px;
+    }
   </style>
 </head>
 <body>
@@ -46,8 +53,13 @@
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code1')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-1: Write a program to print numbers from 1 to 10 using <br>(a) For Loop <br>(b) While Loop <br>(c) Do-While Loop</h3>
-    <pre>
+    <pre id="code1">
       <h3 class="input">Input:- </h3>
 #include &lt;stdio.h&gt;
 
@@ -79,15 +91,22 @@ int main() {
 }
 
     </pre>
+    
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271834289124302192421831272.jpg" alt=""></div>
   </div>
+    
   <br>
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code2')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-2: Write a program to calculate the sum of first 20 natural numbers using a for loop.</h3>
-    <pre>
+    <pre id="code2">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
 
@@ -107,6 +126,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271843041857096975432133862.jpg" alt=""></div>
   </div>
@@ -114,8 +134,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code3')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-3: Write a program to display the multiplication table of a number entered by the user using a for loop.</h3>
-    <pre>
+    <pre id="code3">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
       int main() {
@@ -136,6 +161,7 @@ int main() {
         
         
     </pre>
+  
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271854305868902563321927709.jpg" alt=""></div>
   </div>
@@ -143,8 +169,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code4')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-4: Write a program to print all even numbers between 1 and 50 using a while loop.</h3>
-    <pre>
+    <pre id="code4">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
       int main() {
@@ -164,6 +195,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271859416056516727457432269.jpg" alt=""></div>
   </div>
@@ -171,8 +203,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code5')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-5: Write a program to calculate the factorial of a number entered by the user using a do-while loop.</h3>
-    <pre>
+    <pre id="code5">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
 
@@ -200,6 +237,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271906149056164037199463489.jpg" alt=""></div>
   </div>
@@ -207,8 +245,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code6')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-6: Write a program to print numbers from 10 to 1 in reverse order using a for loop.</h3>
-    <pre>
+    <pre id="code6">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
       int main() {
@@ -225,6 +268,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271910168341143986562403991.jpg" alt=""></div>
   </div>
@@ -232,8 +276,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code7')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-7: Write a program to calculate the sum of digits of a number entered by the user. Use a while loop</h3>
-    <pre>
+    <pre id="code7">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
       int main() {
@@ -261,6 +310,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271914357238357422295885332.jpg" alt=""></div>
   </div>
@@ -268,8 +318,13 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code8')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+    </svg></button>
     <h3 class="question">Q-8: Write a program to print all prime numbers between 1 and 100 using nested loops.</h3>
-    <pre>
+    <pre id="code8">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
 
@@ -301,6 +356,7 @@ int main() {
         
         
     </pre>
+   
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271918519000388134197376298.jpg" alt=""></div>
   </div>
@@ -308,8 +364,14 @@ int main() {
 
 
   <div class="code-box">
+    <button class="copy-btn" onclick="copyCode('code9')">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+      </svg></button>
     <h3 class="question">Q-9: Write a program to display the first 10 terms of the Fibonacci sequence using a for loop.</h3>
-    <pre>
+    <pre id="code9">
       <h3 class="input">Input:- </h3>
       #include &lt;stdio.h&gt;
       int main() {
@@ -336,10 +398,23 @@ int main() {
         
         
     </pre>
+    
     <h3 class="output">Output:- </h3>
     <div class="image-box"><img src="https://mskinggaming.wordpress.com/wp-content/uploads/2024/11/screenshot2024-11-271921186088538328220897040.jpg" alt=""></div>
   </div>
   
 
 </body>
+<script>
+   function copyCode(codeId) {
+      var code = document.getElementById(codeId).innerText;
+      var textArea = document.createElement("textarea");
+      textArea.value = code;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textArea);
+      alert("Code copied to clipboard!");
+    }
+</script>
 </html>
